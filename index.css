@@ -18,12 +18,12 @@ body{
 .column {
     float: left;
     width: 25%;
-    padding: 4.16%;
+    padding: 4.16% 4.16% 0% 4.16%;
   }
 
 .heading{
-    padding: 30px;
-    font-size: 40px;
+    padding: 20px 20px 0px 20px;
+    font-size: 30px;
     text-align: center;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -48,11 +48,11 @@ img:hover{
     border-radius: 48%;
 }
 h2{
-    font-size: 30px;
+    font-size: 25px;
     color: #5D001E;
 }
 p{
-    font-size: 25px;
+    font-size: 19px;
     color: #5D001E;
 }
 #sidebar{
@@ -74,7 +74,7 @@ p{
     padding: 15px 10px;
     
     line-height: 40px;
-    font-size: 25px;
+    font-size: 10px;
 }
 #sidebar .toggle-btn{
     position: absolute;
