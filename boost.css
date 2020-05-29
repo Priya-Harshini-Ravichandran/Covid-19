@@ -1,0 +1,52 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+    background-color: #E7E6E6;
+}
+.heading{
+    padding: 20px 100px 100px 100px;
+    text-align: center;
+    color: #Ffffff;
+    font-size: 25px;
+    background-color: #242582;
+}
+.grid-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 36% 64%;
+    grid-template-rows: 400px 400px;
+    grid-auto-rows: 400px;
+    
+
+}
+.grid-item{
+
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: #242582;
+    font-size: large;
+
+}
+.photo > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .photo{
+    width: 370px;
+    height: 370px;
+    background: #000000;
+    border-radius: 0 0 370px 0;
+    -moz-border-radius: 0 0 370px 0;
+    -webkit-border-radius: 0 0 370px 0;
+    border: 10px solid #E7E6E6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
